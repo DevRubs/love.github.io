@@ -176,7 +176,7 @@
   });
 
   // Photo hearts: preload and spawn with same drift
-  const photoSources = Array.from({ length: 11 }, (_, i) => `Photos/${i}.jpg`);
+  const photoSources = Array.from({ length: 10 }, (_, i) => `Photos/${i}.jpg`);
   const preloadedImages = [];
   photoSources.forEach((src) => {
     const img = new Image();
