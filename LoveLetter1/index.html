@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Open the Love Letter</title>
+  <meta name="description" content="A cute envelope that opens to reveal a love letter.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page">
+    <div class="scene">
+      <div class="envelope-wrap" id="envelope-wrap">
+        <button class="envelope" id="envelope" aria-expanded="false" aria-controls="letter" title="Open the envelope">
+          <div class="envelope-tilt">
+            <div class="lid" aria-hidden="true"></div>
+            <div class="base" aria-hidden="true"></div>
+            <div class="paper" id="letter" aria-hidden="true">
+              <div class="letter-inner">
+                <h1>Dear Breebrees</h1>
+                <p>
+                  I’ve been thinking a lot lately about us, about how far we’ve come. It’s been a year of late night calls, laughs, misunderstandings, waiting, missing each other, and still choosing to stay. And honestly? Even if it hasn’t always been perfect, I wouldn’t trade it for anything. I feel lucky that I get to build something with you, even from a distance.
+                </p>
+                <p>
+                  I know I stumble sometimes. There are moments where I get busy, moments I don’t multitask well, and I know that makes you feel like you’re not giving my all. The truth is, I don’t want you to ever feel like you’re not important because you are, you always are. But sometimes I get tired, and I need a little downtime or space to breathe. Not because I’m pulling away, but because I want to recharge so I can love you better.
+                </p>
+                <p>
+                  I realize love isn’t about controlling each other or setting rules on what we can or can’t do. Love is trust, freedom, and choosing each other no matter what. I don’t want us to feel like we’re against one another when things get tough. I don’t want you to feel like I’m shutting you out when I ask for balance. What I really want is for us to fight for this relationship, side by side.
+                </p>
+                <p>
+                  Sometimes I might not get it right. I might say things wrong, I might get upset, I might not respond in the perfect way. But what I promise is that I’ll always try to make things right with you. I’ll always come back, I’ll always choose you, even after misunderstandings.
+                </p>
+                <p>
+                  This distance we’re in is hard we both know that. But even with the challenges, I still find myself falling for you more every day. Every call, every laugh, every little moment we share is proof to me that what we have is real. And I don’t want to lose that.
+                </p>
+                <p>
+                  You’re my peace, my safe place, my person. Even when we clash, I never forget how much I love you. I hope we can keep learning how to understand each other better — not by controlling, but by respecting and trusting. By knowing that even when I take a step back to breathe, my heart is still right here with you.
+                </p>
+                <p>
+                  I want this long-term. I want us to keep choosing each other despite the hard days. You’re worth it, love. You’ve always been worth it.
+                </p>
+                <p class="signature">Always,<br>Ruben</p>
+              </div>
+            </div>
+            <div class="seal" aria-hidden="true">
+              <span class="heart" aria-hidden="true">❤</span>
+            </div>
+          </div>
+        </button>
+      </div>
+      <p class="hint">Tap or click the envelope</p>
+    </div>
+    <!-- hearts container is implicit; hearts are appended to body -->
+  </main>
+  <audio id="bgm" src="music.mp3" preload="auto" loop></audio>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
